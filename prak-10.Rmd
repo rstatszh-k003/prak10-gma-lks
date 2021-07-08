@@ -60,6 +60,15 @@ kundenprofile <- read.csv(file = "/cloud/project/data/supermarkt/kundenprofile.c
 
 ```{r}
 
+names(einkaeufe)
+names(preise)
+names(kundenprofile)
+
+nrow(einkaeufe)
+nrow(preise)
+nrow(kundenprofile)
+
+glimpse(einkaeufe)
 
 ```
 
